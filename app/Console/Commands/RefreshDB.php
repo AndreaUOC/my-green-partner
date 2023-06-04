@@ -29,7 +29,7 @@ class RefreshDB extends Command
      */
     public function handle()
     {
-        //parametro de entrada que marca el numero maximo de paginas (OJO error en la 3 pagina por una imagen)
+        
         $maxPages = $this->argument('max_pages');
         for ($page = 1; $page <= $maxPages; $page++) {
             $response = Http::get('https://perenual.com/api/species-list', [
@@ -46,7 +46,6 @@ class RefreshDB extends Command
                         }
 
 
-                        //excepciones encontradas hasta pag100 (max 300/dia)
                         $watering = $plant['watering'];
                         $watering = strtolower($watering);
                         if (strpos($watering, 'min') !== false) {
@@ -76,7 +75,7 @@ class RefreshDB extends Command
                                 $sunlight = 'part sun/part shade';
                             }
                             
-                        } unset($sunlight); //lliberem la variable 
+                        } unset($sunlight); 
                         
                         //Error wt the images of the api, default one is assigned 
                         $idPlant = Plant::insertGetId([

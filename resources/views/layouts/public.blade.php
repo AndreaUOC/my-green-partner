@@ -55,7 +55,7 @@
     </div>
 
     <footer>
-        <!-- Aquí va el peu de pàgina -->
+        <!-- Footer line  -->
     </footer>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
 

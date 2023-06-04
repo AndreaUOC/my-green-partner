@@ -9,7 +9,7 @@ class PlantSunlight extends Model
 {
     use HasFactory;
 
-    protected $table = 'plants_sunlights'; //El nombre de la tabla es diferente al que busca el modelo
+    protected $table = 'plants_sunlights'; 
 
     protected $fillable = [
         'plant_id',
