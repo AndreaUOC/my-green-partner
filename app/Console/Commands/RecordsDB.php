@@ -15,7 +15,7 @@ class ExcelDB extends Command
      *
      * @var string
      */
-    protected $signature = 'insert:records';
+    protected $signature = 'recordsDb';
 
     /**
      * The console command description.
