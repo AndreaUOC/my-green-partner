@@ -15,5 +15,9 @@ return [
 
     'previous' => '&laquo; Anterior',
     'next' => 'Següent &raquo;',
+    'Showing'=>'Mostrant', 
+    'to'=>'a',
+    'of'=>'de', 
+    'results'=> 'resultats', 
 
 ];

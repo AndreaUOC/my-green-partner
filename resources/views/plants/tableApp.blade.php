@@ -38,7 +38,7 @@
                             </label>
                         </div>
                     @endforeach
-                    <div class="mt-3">
+                    <div class="mt-3 mb-3">
                         <button type="submit" class="btn btn-success">{{__('transLayout.Submit')}}</button>
                         <a class="btn btn-warning" aria-current="page" href="{{ route('plantTable') }}">{{__('transLayout.Reset')}}</a>
                     </div>
@@ -73,7 +73,7 @@
                                 {{ $p->id }}
                             </td>
                             <td>
-                            <img class="img-fluid" style="width: 120px; height: 100px;" src="{{ $p->image }}" alt="Imagen">
+                            <img class="img-fluid" style="width: 120px; height: 100px; object-fit: cover;" src="{{ $p->image }}" alt="Imagen">
                             </td>
                             <td>
                                 {{ $p->name }}

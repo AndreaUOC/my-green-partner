@@ -14,8 +14,11 @@ return [
         'full shade' => 'Ombra completa',
         'full sun' => 'Llum completa',
         'part shade' => 'Ombra parcial',
+        'partial sun'=> 'Llum parcial',
         'filtered shade' => 'Llum indirecta',
-        'part sun/part shade' => 'Llum i ombra parcial'
+        'part sun/part shade' => 'Llum i ombra parcial',
+        'sheltered'=>'Arrecerat',
+
     ],
 
     'Cycle'=>'Cicle',

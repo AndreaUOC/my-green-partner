@@ -39,7 +39,7 @@
                     {{ $p->id }}
                 </td>
                 <td>
-                <img class="img-fluid" style="width: 120px; height: 100px;" src="{{ $p->image }}" alt="Imagen">
+                <img class="img-fluid" style="width: 120px; height: 100px; object-fit: cover;" src="{{ $p->image }}" alt="Imagen">
                 </td>
                 <td>
                     {{ $p->name }}
