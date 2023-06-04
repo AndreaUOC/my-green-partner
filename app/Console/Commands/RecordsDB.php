@@ -8,7 +8,7 @@ use App\Models\Plant;
 use App\Models\Sunlight;
 use App\Models\PlantSunlight;
 
-class ExcelDB extends Command
+class RecordsDB extends Command
 {
     /**
      * The name and signature of the console command.
