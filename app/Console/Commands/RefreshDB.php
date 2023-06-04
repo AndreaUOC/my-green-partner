@@ -34,7 +34,7 @@ class RefreshDB extends Command
         for ($page = 1; $page <= $maxPages; $page++) {
             $response = Http::get('https://perenual.com/api/species-list', [
                 'page' => $page,
-                'key' => 'sk-FvqP646270c933f56817'
+                'key' => env('API_KEY')
             ]);
             if ($response->ok()) {
                 $data = $response->json();
