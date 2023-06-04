@@ -190,7 +190,7 @@ class RecordsDB extends Command
             ],
             [
                 'name' => 'Brassica oleracea var. capitata (Cabdell)',
-                'image' => 'http://herbarivirtual.uib.es/imagen/4164/e9343e66/300/0/imatge.jpg',
+                'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kalkar_-_Wei%C3%9Fkohl_01_ies.jpg/375px-Kalkar_-_Wei%C3%9Fkohl_01_ies.jpg',
                 'watering' => 'frequent',
                 'sunlight'=> [
                     "full sun", 
@@ -257,7 +257,7 @@ class RecordsDB extends Command
             ],
             [
                 'name' => 'Phaseolus vulgaris L. (Mongeta)',
-                'image' => 'http://www.espairuralgallecs.cat/img/galeria/1562935299-0-0.jpg',
+                'image' => 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Vainas_de_frijol.jpg/330px-Vainas_de_frijol.jpg',
                 'watering' => 'minium',
                 'sunlight'=> [
                     "full sun"
