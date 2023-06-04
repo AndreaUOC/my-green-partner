@@ -29,7 +29,7 @@ return new class extends Migration
     {
         Schema::table('plants_sunlights', function (Blueprint $table){
             $table->dropForeign('plants_sunlights_plant_id_foreign');
-            $table->dropForeign('plants_sunlights_sunlights_id_foreign');
+            $table->dropForeign('plants_sunlights_sunlight_id_foreign');
         });
         
         Schema::dropIfExists('plants_sunlights');
