@@ -67,7 +67,7 @@
                     @foreach ($plants as $p)
                         <tr>
                             <td>
-                            <img src="{{ $p->image }}" class="img-fluid" style="width: 120px; height: 100px;" alt="Imagen">
+                            <img src="{{ $p->image }}" class="img-fluid" alt="Imagen">
                             </td>
                             <td>
                                 {{ $p->name }}
