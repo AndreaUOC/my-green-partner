@@ -1,6 +1,6 @@
 @extends('layouts.public')
 @section('content')
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col-12 col-md-3">
                 <form method="get" action="{{ route('plantTable') }}">
@@ -49,9 +49,6 @@
                     <table class="table table-striped">
                     <tr>
                         <th>
-                            Id
-                        </th>
-                        <th>
                             Foto
                         </th>
                         <th>
@@ -70,10 +67,7 @@
                     @foreach ($plants as $p)
                         <tr>
                             <td>
-                                {{ $p->id }}
-                            </td>
-                            <td>
-                            <img class="img-fluid" style="width: 120px; height: 100px; object-fit: cover;" src="{{ $p->image }}" alt="Imagen">
+                            <img src="{{ $p->image }}" class="img-fluid" style="width: 120px; height: 100px;" alt="Imagen">
                             </td>
                             <td>
                                 {{ $p->name }}

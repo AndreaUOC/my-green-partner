@@ -1,7 +1,7 @@
 @extends('layouts.public')
 @section('content')
 {{-- GET->select, POST->insert, PUT->update, DELETE->delete --}}
-    <nav class="mt-3 navbar bg-body-tertiary">
+    <nav class="mt-3 navbar bg-body-tertiary mt-5 mb-5">
         <div class="container-fluid">
             <form class="d-flex" role="search">
                 <input class="form-control me-2 col-md-8" name="search" type="search" value="{{ request()->get('search') }}"
